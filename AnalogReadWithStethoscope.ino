@@ -8,4 +8,5 @@ void setup() {
 void loop() {
    
    int STETHOSCOPE_Reading = analogRead(STETHOSCOPE_PIN);
+   Serial.print("Reading: ");Serial.print(STETHOSCOPE_Reading);
 }
